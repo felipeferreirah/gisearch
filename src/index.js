@@ -109,7 +109,7 @@ function mapStyles(styles) {
 
   const RouterApp = () => (
 
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Route render={props => (
 
           <div class="content-geral black-theme active">
@@ -125,7 +125,7 @@ function mapStyles(styles) {
               mapStyles={mapStyles}
               className={"content-wrapper "}>
 
-              <Route path="/gisearch/" component={Home} exact="true"  />
+              <Route path="/*" component={Home} exact="true"  />
               <Route path="/Home/:namePerf?" component={Home}  />
               <Route path="/Perfil/:idPerf?/:orderRepo?" component={Perfil}      />
               <Route path="/Repositorie/:namePerf?/:nameRepo?" component={Repositorie}    />
