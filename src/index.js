@@ -125,7 +125,7 @@ function mapStyles(styles) {
               mapStyles={mapStyles}
               className={"content-wrapper "}>
 
-              <Route path="/Home" component={Home} exact="true"  />
+              <Route path="/gisearch/" component={Home} exact="true"  />
               <Route path="/Home/:namePerf?" component={Home}  />
               <Route path="/Perfil/:idPerf?/:orderRepo?" component={Perfil}      />
               <Route path="/Repositorie/:namePerf?/:nameRepo?" component={Repositorie}    />
