@@ -1,0 +1,40 @@
+
+.nav{
+    width:100%;
+    height: 40px
+}
+.rounded{
+    border-radius: 50px!important;
+    padding: 10px!important;
+    font-size:15px!important;
+    margin-right: 10px!important
+}
+
+.nav-center{
+    width:100%;
+    max-width: 435px;
+    margin:auto;
+    height:auto;
+    overflow: hidden;
+}
+.go{
+  float: left;
+  width: 15%;
+  color: #323232!important;
+  padding: 7px;
+}
+.search-input{
+  border-radius: 100px!important;
+  padding:5px 30px;
+  text-decoration:none;
+  color:#202020!important;
+  background: #fff!important;
+  font-size: 16px;
+  max-width:300;
+  width:80%;
+  outline: none;
+  border:1px solid transparent;
+  text-align: center;
+
+  float:left;
+}

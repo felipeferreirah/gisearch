@@ -1,0 +1,11 @@
+.back{
+  border-radius: 100px!important;
+  padding:4px 30px;
+  text-decoration:none;
+  color:#202020!important;
+  background: #4DFFB4!important;
+  cursor:pointer;
+  width:150px;
+  text-align: center
+
+}
