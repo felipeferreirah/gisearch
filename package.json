@@ -1,6 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
+  "homepage": "https://github.com/felipeferreirah/gisearch",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^3.5.1",
@@ -9,6 +10,7 @@
     "@material/card": "^0.41.0",
     "axios": "^0.18.0",
     "babel-install": "^2.1.0",
+    "gh-pages": "^2.0.1",
     "glamor": "^2.20.40",
     "prop-types": "^15.7.2",
     "query-string": "^6.4.2",
@@ -23,6 +25,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build react-scripts build",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
