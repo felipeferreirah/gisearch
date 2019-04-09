@@ -132,7 +132,7 @@ function mapStyles(styles) {
 
             </AnimatedSwitch>
 
-            <AnimatedRoute className="rodape-geral" path="/:a+" component={Footer} {...bounceTransitions} mapStyles={mapStylesBar} />
+            <AnimatedRoute className="rodape-geral" path="*" component={Footer} {...bounceTransitions} mapStyles={mapStylesBar} />
           </div>
 
         )} />
