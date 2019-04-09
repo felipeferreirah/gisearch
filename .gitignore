@@ -1,0 +1,22 @@
+OS junk files
+[Tt]humbs.db
+*.DS_Store
+
+#Visual Studio files
+yarn-error.log
+node_modules/
+*.DS_Store
+
+#Tooling
+_ReSharper*/
+*.resharper
+[Tt]est[Rr]esult*
+
+#Project files
+[Bb]uild/
+
+#Subversion files
+.svn
+
+# Office Temp Files
+~$*
