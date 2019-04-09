@@ -106,10 +106,10 @@ function mapStyles(styles) {
 // <ScrollToTop> ******* Helper para dar scroll depois da simulação do DOM.
 // <AnimatedRoute> ***** Mostra ou esconde o component dependendo do path (url).
 // <AnimatedSwitch> **** Responsavel pela troca de pages.
-
+// basename={process.env.PUBLIC_URL}
   const RouterApp = () => (
 
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <Route render={props => (
 
           <div class="content-geral black-theme active">
@@ -125,14 +125,14 @@ function mapStyles(styles) {
               mapStyles={mapStyles}
               className={"content-wrapper "}>
 
-              <Route path="/*" component={Home} exact="true"  />
+              <Route path="/" component={Home} exact="true"  />
               <Route path="/Home/:namePerf?" component={Home}  />
               <Route path="/Perfil/:idPerf?/:orderRepo?" component={Perfil}      />
               <Route path="/Repositorie/:namePerf?/:nameRepo?" component={Repositorie}    />
 
             </AnimatedSwitch>
 
-            <AnimatedRoute className="rodape-geral" path="*" component={Footer} {...bounceTransitions} mapStyles={mapStylesBar} />
+            <AnimatedRoute className="rodape-geral" path="/*" component={Footer} {...bounceTransitions} mapStyles={mapStylesBar} />
           </div>
 
         )} />
