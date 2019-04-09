@@ -109,7 +109,7 @@ function mapStyles(styles) {
 
   const RouterApp = () => (
 
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Route render={props => (
 
           <div class="content-geral black-theme active">
