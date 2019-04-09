@@ -5,8 +5,6 @@ OS junk files
 yarn-error.log
 node_modules/
 *.DS_Store
-yarn.lock
-package-lock.json
 
 #Project files
 [Bb]uild/
