@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/felipeferreirah/gisearch/precache-manifest.3664bf6da4c68c1bc161a12f88c48704.js"
+  "/felipeferreirah/gisearch/precache-manifest.0813c7ec5755b02d35a62e81eb289fef.js"
 );
 
 workbox.clientsClaim();
