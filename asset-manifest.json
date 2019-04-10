@@ -1,13 +1,13 @@
 {
-  "main.css": "/felipeferreirah/gisearch/static/css/main.ae299c1b.chunk.css",
-  "main.js": "/felipeferreirah/gisearch/static/js/main.3bebfe09.chunk.js",
-  "main.js.map": "/felipeferreirah/gisearch/static/js/main.3bebfe09.chunk.js.map",
-  "static/js/1.72a006a4.chunk.js": "/felipeferreirah/gisearch/static/js/1.72a006a4.chunk.js",
-  "static/js/1.72a006a4.chunk.js.map": "/felipeferreirah/gisearch/static/js/1.72a006a4.chunk.js.map",
-  "runtime~main.js": "/felipeferreirah/gisearch/static/js/runtime~main.fb62c818.js",
-  "runtime~main.js.map": "/felipeferreirah/gisearch/static/js/runtime~main.fb62c818.js.map",
-  "static/css/main.ae299c1b.chunk.css.map": "/felipeferreirah/gisearch/static/css/main.ae299c1b.chunk.css.map",
-  "index.html": "/felipeferreirah/gisearch/index.html",
-  "precache-manifest.0813c7ec5755b02d35a62e81eb289fef.js": "/felipeferreirah/gisearch/precache-manifest.0813c7ec5755b02d35a62e81eb289fef.js",
-  "service-worker.js": "/felipeferreirah/gisearch/service-worker.js"
+  "main.css": "/gisearch/static/css/main.ae299c1b.chunk.css",
+  "main.js": "/gisearch/static/js/main.407a1190.chunk.js",
+  "main.js.map": "/gisearch/static/js/main.407a1190.chunk.js.map",
+  "static/js/1.72a006a4.chunk.js": "/gisearch/static/js/1.72a006a4.chunk.js",
+  "static/js/1.72a006a4.chunk.js.map": "/gisearch/static/js/1.72a006a4.chunk.js.map",
+  "runtime~main.js": "/gisearch/static/js/runtime~main.3a687365.js",
+  "runtime~main.js.map": "/gisearch/static/js/runtime~main.3a687365.js.map",
+  "static/css/main.ae299c1b.chunk.css.map": "/gisearch/static/css/main.ae299c1b.chunk.css.map",
+  "index.html": "/gisearch/index.html",
+  "precache-manifest.889bf7a6531f1abdc49f183843d656bd.js": "/gisearch/precache-manifest.889bf7a6531f1abdc49f183843d656bd.js",
+  "service-worker.js": "/gisearch/service-worker.js"
 }
