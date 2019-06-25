@@ -2,26 +2,28 @@ import React from 'react';
 import axios from 'axios';
 import NavLink from 'react-router-dom/NavLink';
 /**
-* Arquivo de requisição da Lista de Repositorio procurado.
-*/
+ * Arquivo de requisição da Lista de Repositorio procurado.
+ */
 export default class RepositorieList extends React.Component {
-  state = {
-    repo: [],
-  }
-
-  componentDidMount() {
-    if (this.props.loginPerf){
-      axios.get('https://api.github.com/search/repositories?q=user:'+this.props.loginPerf+'&sort=stars&order='+this.props.order)
-      .then(res => {
-        const repo = res.data.items;
-        this.setState({ repo });
-      })
+    state = {
+      repo: [],
     }
-  }
 
-  render(props) {
-    if (this.props.loginPerf ){
-      return (
+    componentDidMount() {
+      if (this.props.loginPerf) {
+        axios.get('https://api.github.com/search/repositories?q=user:' + this.props.loginPerf + '&sort=stars&order=' + this.props.order)
+          .then(res => {
+            const repo = res.data.items;
+            this.setState({
+              repo
+            });
+          })
+      }
+    }
+
+    render(props) {
+        if (this.props.loginPerf) {
+          return (
         <div>
           <ul>
             { this.state.repo.map((repo,index) =>
