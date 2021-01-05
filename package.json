@@ -8,7 +8,7 @@
       "@material-ui/icons": "^3.0.1",
       "@material/button": "^0.41.0",
       "@material/card": "^0.41.0",
-      "axios": "^0.18.0",
+      "axios": "^0.21.1",
       "babel-install": "^2.1.0",
       "gh-pages": "^2.0.1",
       "glamor": "^2.20.40",
